@@ -374,7 +374,7 @@ export default class ThermostatAccessory extends BaseAccessory {
         'setTargetSetpoint',
         {
           targetSetpoint: {
-            value: newTemp.toString(10),
+            value: newTemp,
             scale: units,
           },
         },
